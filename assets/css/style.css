@@ -1,0 +1,467 @@
+*{
+	margin:auto;
+	box-sizing: border-box;
+}
+header,
+section,
+main{
+	float: left;
+	width:100%
+}
+/*Home and main heading page*/
+header{
+	position: fixed;
+	top:0;
+	z-index: 999;
+	transition:all 0.3s; 
+}
+#myHeader{
+	display: flex;
+    justify-content: space-between;
+}
+header nav a{
+	text-decoration:none;
+	list-style:none;
+	color:#fff;
+	font-family: 'Gentium Book Basic', serif;
+	font-size:20px;
+	transition:all 0.3s; 
+	padding: 16px;
+	display:inline-block;
+}
+nav ul li{
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	transition:all 0.3s; 
+}
+li a:hover{
+
+	color:black;
+	background-color: #1DB0B5;
+	transition: all .3s;
+}
+header.fixed{
+	background-color: #000;
+}
+.headingstyles{
+	background-image:url("../images/pak.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat; 
+	position:relative;
+	padding: 300px 108px;
+}
+.logostyle{
+	font-size:42px;
+	font-family: 'Mr Dafoe', handwriting;
+	color: #fff;
+	text-decoration: none;
+}
+
+.h3style{
+	font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+.h2style{
+	font-size: 121px;
+    font-family: 'Mr Dafoe', handwriting;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.pstyle{
+	padding-right: 45%;
+}
+.h4style{
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+.buttonstyle{
+	background-color: #ff514e;
+    border: none;
+    color: white;
+    padding: 16px 74px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 16px 32px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 100px;
+	font-family: 'Oswald', sans-serif;
+}
+.mainh5style{
+	font-size:20px;
+	margin: 100px 0px 0px 88px;
+	color:#9E9E9E;	
+}
+.mainh3style{
+	font-family: 'Barlow', sans-serif;
+	font-size:66px;
+	margin: 0px 86px;
+}
+.info{
+	float:left;
+	width: 260px;
+  margin-right: 27px;
+  margin-left: 50px;
+  margin-top: 58px;
+  margin-bottom: 28px;
+
+}
+.infoimg{
+  margin-left: 39px;
+}
+.wrp{
+	padding:13px;
+}
+.infoa{
+	text-align:center;
+	text-decoration:none;
+	font-size:20px;
+	color:black;
+	margin-left:20px;
+	font-family: 'Spartan', sans-serif;
+}
+.infoa:hover{
+	color:red;
+}
+
+p{
+	text-align:left;
+	font-size:15px;
+	font-family: 'Spartan', sans-serif;
+	color:#B1B1B1;
+	margin-top: 20px;
+    margin-left: 18px;
+}
+span{
+	text-align:center;
+	color:#989898;
+}
+.center-div{
+	max-width: 1200px;
+	margin:auto;
+}	
+.center-div1{
+    font-weight:300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #20232d;
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    margin-bottom: 60px;
+}
+.commentstyle{
+    padding:119px 180px;
+    margin-bottom: 7px;
+	background-color: #8c8c8c36;
+    position: relative;
+    transition-duration: 0s;
+}
+.pcommentst{
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    color: #20232d;
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+}
+.persontitle{
+	font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #919191;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    padding-top:19px;
+}
+.person{
+	font-weight: 700;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #20232d;
+    font-size: 20px;
+    line-height: 0.6;
+    letter-spacing: 0px;
+    padding-top:30px;	
+}
+.ppl{
+	width: 100%;
+	vertical-align: middle;
+}
+.commcontent{
+	padding-left: 16px;
+}
+.footer
+{
+ 
+    background: var(--background-clr-two);
+    border-top: 2px solid var(--background-clr-two);
+	background-color:#a5a5a580;
+    padding: 10px;
+    color: white;
+}
+.contacth{
+	font-size:26px;
+	color:#000;
+	float:left;
+	padding: 44px;
+}
+.telnum{
+	text-decoration: none;
+	color: #000;
+}
+.footerh{
+	font-size:26px;
+	color:#000;
+	float:left;
+	padding: 44px;
+	font-weight: 10;
+}
+.footer-end
+{
+ 
+    background: var(--background-clr-two);
+    border-top: 2px solid var(--background-clr-two);
+	background-color:black;
+    padding: 10px;
+    color: white;
+}
+
+.copyright {
+    margin-left: 170px;
+    display: inline-block;
+}
+
+.tel {
+    float: right;
+       margin-right: 200px;
+}
+
+.slider img{
+    height: 342.632px;
+    width: 33%;
+    padding: 7px 0px 14px 19px;
+    object-fit: cover;
+}
+.banner-section{
+	background-image: url(../images/pak.jpg);
+    padding: 85px 0px 0px 140px;
+    background-repeat: no-repeat;
+    background-size: cover;	
+    background-position: center center;
+    height: 233px;
+    margin-bottom: 50px;
+}
+.banner-section p{
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.banner-section h1{
+  font-family: 'Mr Dafoe', cursive;
+  font-weight: 400;
+  font-size: 60px;
+  color: #ffffff;
+  margin-left: 12px;
+  }
+.faq-banner img{
+	width:100%;
+	height:75%;
+}
+
+.faq-section{
+    padding: 43px;
+
+} 
+
+.faq-section h1{
+    text-align:center;
+}
+	
+.faq-section h2{
+	text-align:left;
+    height: 50px;	
+}
+.ui-accordion .ui-accordion-header{
+	border:none;
+	outline:none;
+	position:relative;
+
+}
+.ui-accordion-header-active.ui-state-active{
+background-color:#fff;
+color: #000;
+}
+.ui-accordion .ui-accordion-header:before{
+	content:'';
+	width:21px;
+	height:17px;
+	background-image:url(../images/arrow.jpg);
+	position:absolute;
+	right:0;
+	top:0;
+	transition: all 0.3s;
+}
+.ui-accordion-header-active.ui-state-active:before{
+	    transform: rotate(181deg);
+}
+
+.faqpara{
+font-size:30px;
+}
+
+#accordion h2{
+font-weight: bold;
+font-size: 20px;
+}
+#accordion p{
+    color: rgb(156, 156, 156);
+    font-size: 15px;
+}
+.faq-banner img{
+width:100%;
+}
+
+.faq-banner img{
+	width:100%
+}
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 30px;
+  margin: 240px 0;
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0), 0 5px 5px 0 rgb(0, 0, 0);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #1d332a;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #318bc0;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
